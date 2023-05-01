@@ -1,25 +1,54 @@
-h1{
+header{
 position: absolute;
 width: 100%;
-height: 141px;
+height: 0px;
 left: 0px;
 top: 0px;
 background: #0C2B7B;
 
-position: absolute;
+position: fixed     ;
 width: 100%;
-height: 90px;
+height: 5.6rem;
 left: 0%;
 top: 0%;
 
 font-family: 'Inria Sans';
 font-style: normal;
-font-weight: 700;
-font-size: 80px;
-line-height: 96px;
+font-size: 5rem;
+line-height: 5rem;
 text-align: center;
 
+color: rgba(255, 255, 255, 0.67);   
+}
+h1{
+position: absolute;
+width: 100%;
+height: 0px;
+left: 0px;
+top: 0px;
+background: #2550E7;
+    
+position: fixed;
+width: 100%;
+height: 5.6rem;
+left: 0%;
+top: 5.6rem;
+    
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 172%;
+line-height: 2rem;
+text-align: center;
 color: rgba(255, 255, 255, 0.67);
+}
+
+.boton{
+margin: 1%;
+width: 15rem;
+height: 1.8rem;
+background: #091f70;
+border-radius: 100px;
 }
 
 *{
@@ -34,49 +63,72 @@ top: 0px;
 background: #A5D4FF;
 }
 img{
-position: relative;
-width: 203px;
-height: 228px;
-left: 68px;
-top: 265px;
+justify-content: left;
+position: absolute;
+margin-left: 1%;
+width: 13rem;
+height: 15rem;
+left: 4rem;
+top: 15rem;
 background: url(foto.jpg);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 101.5px;
 }
-a {
-    text-decoration: none;
-  }
-  nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-
-    
-  } 
-  nav a {
-    display: block;
-    padding: 1rem;
-    color: #000000;
-    text-decoration: none; 
-  } 
- .datospersonales{
-position: absolute;
-width: 474.95px;
-height: 254.23px;
-left: 356px;
-top: 265px;
-font-size: 30px;
-
-background: #A9F9E5;
- }
-
-.contenedor1{
-    position: absolute;
-    left: 366px;
-    top: 320px;
-    font-size: 25px;
+div{
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0.8rem;
+margin-left: 10%;
 }
+a {
+text-decoration: none;
+}
+nav ul {
+display: flex;
+justify-content: space-evenly;
+margin: 0;
+padding: 0;
+list-style: none;
+} 
+nav a {
+display: block;
+padding: 1rem;
+color: rgba(255, 255, 255, 0.67);
+text-decoration: none; 
+} 
 
-
+.texto{
+position: absolute;
+width: 70%;
+left: 9%;
+top: 17rem;
+font-size: 150%;
+background-color: #5399b4;
+}
+.footer{
+justify-content: baseline;
+position: fixed;
+width: 100%;
+height: 7.9%;
+left: 0px;
+top: 92.1%;
+background: #242424;
+}
+.font{
+position: absolute;
+width: 90%;
+height: 90%;
+left: 1%;
+top: 5%;
+    
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+    
+color: rgba(16, 189, 243, 0.46);
+}
+.titulo{
+text-align: center;
+font-size: 200%;
+}
